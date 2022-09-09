@@ -1,9 +1,7 @@
 {
-  "name": "reveal.js",
+  "name": "event-driven-design",
   "version": "4.3.1",
-  "description": "The HTML Presentation Framework",
-  "homepage": "https://revealjs.com",
-  "subdomain": "revealjs",
+  "description": "",
   "main": "dist/reveal.js",
   "module": "dist/reveal.esm.js",
   "license": "MIT",
@@ -13,9 +11,9 @@
     "build": "gulp build"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Matthew Schroeder",
+    "email": "msschroe3@gmail.com",
+    "web": "https://schroedermatt.com"
   },
   "repository": {
     "type": "git",
