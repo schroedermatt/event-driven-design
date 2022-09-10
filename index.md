@@ -1,5 +1,5 @@
-# Weeks
+## Schedule
 
-* [Introduction](./week-1.html)
+* [Week 1 - Introduction](./week-1.html)
 
 ---
