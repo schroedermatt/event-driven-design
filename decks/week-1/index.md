@@ -51,7 +51,7 @@ Note:
 
 ===
 
-<img src="images/w1_service_graph.svg"  height="600">
+<img src="decks/week-1/assets/w1_service_graph.svg"  height="600">
 
 Note:
 - Making this graph operate requires an in depth look at the nodes and the relationships
