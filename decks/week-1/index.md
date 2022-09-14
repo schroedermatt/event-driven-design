@@ -25,7 +25,7 @@ Event driven architectures are made possible by a whole host of technologies tha
 
 ===
 
-![venn](images/w1_convergence_venn.svg)
+![venn](decks/week-1/assets/w1_convergence_venn.svg)
 
 Note:
 - This demand coincides the rise of containerization and availability of compute resources which has simplified hosting, scaling, and management of hundreds/thousands microservices
@@ -62,3 +62,24 @@ Note:
 
 ===
 
+> There is no sense in talking about the solution before we agree on the problem, and no sense talking about the implementation steps before we agree on the solution.
+
+_-Efrat Goldratt-Ashlag_
+
+Note:
+- Problem: what's the _business domain_? What are the _business goals_? What is the strategy to achieve them?
+- _Ubiquitous language_ helps gain a deep understanding of the domain.
+- Manage the complexity by breaking it apartinto _bounded contexts_. Each implements a single model the of domain, aimed at solving a specific problem.
+
+- DDD p.267
+
+===
+
+### Types of Subdomains
+
+<img src="decks/week-1/assets/w1_subdomains_table.svg">
+
+Note:
+- DDD p.267
+
+===
