@@ -287,7 +287,7 @@ gulp.task('package', gulp.series(() =>
 
 ))
 
-gulp.task('reload', () => gulp.src(['*.html', '*.md'])
+gulp.task('reload', () => gulp.src(['*.html', '*.md', 'decks/**'])
     .pipe(connect.reload()));
 
 gulp.task('serve', () => {
@@ -300,6 +300,8 @@ gulp.task('serve', () => {
     })
 
     gulp.watch(['*.html', '*.md'], gulp.series('reload'))
+    
+    gulp.watch(['decks/**', '*.md'], gulp.series('reload'))
 
     gulp.watch(['js/**'], gulp.series('js', 'reload', 'eslint'))
 

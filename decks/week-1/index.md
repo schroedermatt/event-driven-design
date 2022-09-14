@@ -25,7 +25,7 @@ Event driven architectures are made possible by a whole host of technologies tha
 
 ===
 
-![venn](../../images/w1_convergence_venn.svg)
+![venn](images/w1_convergence_venn.svg)
 
 Note:
 - This demand coincides the rise of containerization and availability of compute resources which has simplified hosting, scaling, and management of hundreds/thousands microservices
@@ -51,7 +51,7 @@ Note:
 
 ===
 
-<img src="../../images/w1_service_graph.svg"  height="600">
+<img src="images/w1_service_graph.svg"  height="600">
 
 Note:
 - Making this graph operate requires an in depth look at the nodes and the relationships
